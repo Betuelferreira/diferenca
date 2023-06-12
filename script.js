@@ -5,7 +5,6 @@ const clon = document.getElementById('clon')
 
 
 
-var cont = 1
 
 var calcular = (id) =>{
 
@@ -33,6 +32,8 @@ function clone (){
     d.childNodes[5].value = ""
     d.childNodes[7].innerText = "resultado:"
     d.childNodes[9].id = document.querySelectorAll(".diferenca").length
+    console.log(d.childNodes[9].id = document.querySelectorAll(".diferenca").length)
+    console.log(document.querySelectorAll(".diferenca"))
     document.getElementById('container').appendChild(d);
     
 
