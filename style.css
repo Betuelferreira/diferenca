@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(252, 252, 252, 0.705);
 }
 
 
@@ -21,6 +22,7 @@ body{
 .diferenca p{
     margin: 0;
     text-align: center;
+    
 }
 
 .data1::-webkit-calendar-picker-indicator {
@@ -40,23 +42,37 @@ body{
     border: 0;
     font-size: 20px;
     color: rgb(85, 78, 78);
+    background-color: #e0edff;
     
 
   }
 
 .diferenca{
+    margin-top: 10px;
+    background-color: #e0edff;
     width: 90%;
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid rgb(5, 86, 236);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: space-evenly
+    
 }
 
 #resultado{
     border: 1px solid black;
     width: alto;
     height: 20px;
+}
+
+#clon{
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(98, 127, 255);
+    border-radius: 60px;
+    font-size: 20px;
+    color:#ffffff
+    
 }
